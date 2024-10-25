@@ -1,0 +1,12 @@
+{
+    "name": "ls_formula1dl_storage",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "https://dbcourseform1dl.dfs.core.windows.net/",
+            "encryptedCredential": "{encrypted-key-value}"
+        }
+    }
+}

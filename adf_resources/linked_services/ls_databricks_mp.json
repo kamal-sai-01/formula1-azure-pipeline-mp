@@ -1,0 +1,14 @@
+{
+    "name": "ls_databricks_mp",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureDatabricks",
+        "typeProperties": {
+            "domain": "https://adb-{workspace-id}.{region}.azuredatabricks.net",
+            "authentication": "MSI",
+            "workspaceResourceId": "/subscriptions/{subscriotion-id}/resourceGroups/dataBricks-rg/providers/Microsoft.Databricks/workspaces/datBricks-ws",
+            "existingClusterId": "{clusted-id}"
+        }
+    }
+}
