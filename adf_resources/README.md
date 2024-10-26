@@ -2,4 +2,4 @@
 
 Follow the below flow chart for better understanding of ADF pipeline
 
-![ADF Pipeline Flow Chart](../images/ADF_pipeline_flowchart.png)
+![ADF Pipeline Flow Chart](../images/ADF_pipeline_flow_chart.png)
