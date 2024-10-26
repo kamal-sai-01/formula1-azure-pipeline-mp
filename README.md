@@ -17,6 +17,8 @@ The pipeline is structured to perform the following steps:
 2. **Ingest Raw Data**: Ingests the raw data and transfers it into the processing environment.
 3. **Transform Data**: Applies necessary transformations to prepare the data for analysis.
 
-**Note**: Follow the flow chart in the README.md file inside the `adf_resources` folder for a better understanding of the pipeline.
+**Note**: Follow the below flow chart for a better understanding of the pipeline. Configuration files for all the mentioned resources are provided in the adf_resources folder.
+
+![ADF Pipeline Flow Chart](../images/ADF_pipeline_flowchart.png)
 
 All stages and tasks within the pipeline are implemented using PySpark within Azure Databricks notebooks.
