@@ -19,6 +19,6 @@ The pipeline is structured to perform the following steps:
 
 **Note**: Follow the below flow chart for a better understanding of the pipeline. Configuration files for all the mentioned resources are provided in the adf_resources folder.
 
-![ADF Pipeline Flow Chart](images/ADF_pipeline_flowchart.png)
+![ADF Pipeline Flow Chart](images/ADF_pipeline_flow_chart.png)
 
 All stages and tasks within the pipeline are implemented using PySpark within Azure Databricks notebooks.
